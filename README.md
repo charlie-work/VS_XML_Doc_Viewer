@@ -12,4 +12,8 @@ Specify an output path, and check the box next to "XML documentation file"
 
 ## Commenting your code
 To make your xml comments, be sure to type /// above your parameters, methods, and classes.  VS will auto-create some of the xml comments for you.
-See the <a href="https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments?view=vs-2019"> MSDN</a> for more refernce.
+See the <a href="https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments?view=vs-2019"> MSDN</a> for more reference.
+
+
+# Why this application?
+I made this because I am not allowed to run DocFX or Sandcastle in my work environement - this is my solution to that.
