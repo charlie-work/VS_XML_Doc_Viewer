@@ -1,0 +1,18 @@
+﻿@model IEnumerable<DOCS.Models.FileList>
+@{
+	ViewBag.Title = "Home Page";
+}
+<div class="jumbotron" style="width:100%;">
+	Below is the list of XML documents for viewing.
+</div>
+<br />
+<hr />
+<div>
+
+	@foreach (var file in Model)
+	{
+		<div style="padding:15px">
+			@Html.ActionLink(file.FileName, "ViewXML", new { fileName = file.FileName }, htmlAttributes: new { @class = "btn btn-primary" })
+		</div>
+	}
+</div>
